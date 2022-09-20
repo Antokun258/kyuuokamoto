@@ -1,0 +1,146 @@
+<html>
+        <div style="background-color:#0f5aa4">
+          <h1><font color="white">岡本駅発</font></h1>
+          <h2><font color="white">神戸三宮方面時刻表(土日祝通学時)</font></h2>
+        </div>
+        <table border="5" bordercolor="#0f5aa4">
+            <body>
+                <tr>
+                    <td>
+                <p id="Clock1" style="display: inline"></p>
+        <script type="text/javascript">
+        setInterval('showClock1()',1000);
+        function showClock1() {
+        var DWs = new Array('日','月','火','水','木','金','土');
+        var Now = new Date();
+        var YY = Now.getYear();
+        if (YY < 2000) { YY += 1900; }
+        var MM = set0( Now.getMonth() + 1 );
+        var DD = set0( Now.getDate() );
+        var DW = DWs[ Now.getDay() ];
+        var hh = set0( Now.getHours() );
+        var mm = set0( Now.getMinutes() );
+        var ss = set0( Now.getSeconds() );
+        var RTime1 ='現在時刻は' + hh + '時' + mm + '分' + ss + '秒';
+        document.getElementById("Clock1").innerHTML = RTime1;
+        }
+        function set0(num) {
+        var ret;
+        if( num < 10 ) { ret = "0" + num; }
+        else { ret = num; }
+        return ret;
+        }
+        </script>
+                    </td>
+                </tr>
+        </body>
+        </table>
+<table border="1">
+    <body>
+        <tr>
+            <td>6:14　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>6:19　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:23　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>6:28　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:30　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　新開地</font></td>
+            <td>6:39　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>6:34　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>6:39　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:41　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>6:46　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:45　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　新開地</font></td>
+            <td>6:53　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>6:48　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　新開地</font></td>
+            <td>6:53　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>6:54　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>6:59　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:01　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　新開地</font></td>
+            <td>7:08　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>7:04　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>7:08　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:12　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>7:17　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:15　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　高速神戸</font></td>
+            <td>7:23　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>7:18　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　新開地</font></td>
+            <td>7:23　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:23　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>7:28　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:30　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　新開地</font></td>
+            <td>7:38　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>7:33　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>7:38　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:40　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　新開地</font></td>
+            <td>7:48　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>7:43　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>7:48　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>7:50　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　高速神戸</font></td>
+            <td>7:58　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>7:53　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>7:58　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>8:00　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　新開地</font></td>
+            <td>8:08　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>8:03　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>8:08　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>8:10　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　新開地</font></td>
+            <td>8:18　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>8:13　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>8:18　六甲駅着</td>
+        </tr>
+        <tr>
+            <td>8:20　<span style="background-color:#ff0000"><span style="color:#fff">　特急　</span></span>　新開地</font></td>
+            <td>8:28　六甲駅着（六甲駅へは後の普通に乗車）</td>
+        </tr>
+        <tr>
+            <td>8:23　<span style="background-color:#000"><span style="color:#fff">　普通　</span></span>　神戸三宮</font></td>
+            <td>8:28　六甲駅着</td>
+        </tr>
+    </body>
+</table>
+</html>
